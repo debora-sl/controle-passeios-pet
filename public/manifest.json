@@ -1,6 +1,6 @@
 {
-  "short_name": "Aplicação React",
-  "name": "Templade Dev Samurai de aplicação React",
+  "short_name": "Aplicação React - CPP",
+  "name": "CPP - Controle de Passeios de Pets",
   "icons": [
     {
       "src": "favicon.ico",

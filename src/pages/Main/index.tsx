@@ -8,8 +8,8 @@ export default function Main() {
         height='256'
         alt='Dev Samurai'
       />
-      <h1>Fala Samurai!</h1>
-      <p>Esse é o template typescript básico da Dev Samurai para React.</p>
+      <h1>CPP - Controle de Passeios de Pets</h1>
+      <p>Esse é o template typescript inicial para a página para um controle de passeios de cães.</p>
     </Container>
   )
 }
