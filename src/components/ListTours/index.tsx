@@ -5,7 +5,7 @@ export function ListTours () {
   return <Container>
      <h1>Passeios Realizados</h1>
       <Table>
-        <thead>
+        <thead >
           <tr>
             <th scope='col'>Data</th>
             <th scope='col'>Status</th>
