@@ -17,12 +17,23 @@ export const Container = styled.div`
 
 export const Table = styled.table`
 
-  border-radius: 5px;
-  width: 38rem;
-  height: 60vh;
+  border: 1px solid black;
+  width: 10rem;
+  height: 16vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1rem;
 
+
+  thead > tr {
+    background-color: ${({ theme }) => theme.colors.gray500};
+  }
+
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
 `
