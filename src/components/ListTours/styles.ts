@@ -17,23 +17,36 @@ export const Container = styled.div`
 
 export const Table = styled.table`
 
-  border: 1px solid black;
-  width: 10rem;
-  height: 16vh;
+  border-radius: 5px;
+  width: 35rem;
+  height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
 
-
   thead > tr {
     background-color: ${({ theme }) => theme.colors.gray500};
+    display: flex;
   }
 
-  table,
-  th,
-  td {
-    border: 1px solid black;
+  tr > th{
+    width: 17.5rem;
+    height: 2rem;
+    margin-top: 0.75rem;
+
+    font-size: ${({ theme }) => theme.fontSize.lg};
+  }
+
+  tbody > tr {
+    background-color: ${({ theme }) => theme.colors.indigo};
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35rem;
+
     border-collapse: collapse;
     border-spacing: 0;
   }
+
 `
