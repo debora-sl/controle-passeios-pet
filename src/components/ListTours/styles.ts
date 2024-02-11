@@ -37,16 +37,19 @@ export const Table = styled.table`
     font-size: ${({ theme }) => theme.fontSize.lg};
   }
 
-  tbody > tr {
+  tbody > tr, td {
+    border: thin solid yellow;
     background-color: ${({ theme }) => theme.colors.indigo};
 
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 35rem;
 
     border-collapse: collapse;
     border-spacing: 0;
+
+
   }
 
 `
