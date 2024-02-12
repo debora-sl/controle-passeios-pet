@@ -2,8 +2,6 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 100%;
-  height: 80vh;
-  border: thin solid yellow;
 
   display: flex;
   flex-direction: column;
@@ -12,6 +10,11 @@ export const Container = styled.div`
   h1 {
     font-size: ${({ theme }) => theme.fontSize['4xl']};
     color: ${({ theme }) => theme.colors.midnightBlue};
+  }
+
+  a {
+      color: ${({ theme }) => theme.colors.blue};
+      font-size: ${({ theme }) => theme.fontSize['2xl']};
   }
 `
 
@@ -37,19 +40,20 @@ export const Table = styled.table`
     font-size: ${({ theme }) => theme.fontSize.lg};
   }
 
-  tbody > tr, td {
-    border: thin solid yellow;
+  tbody > tr {
     background-color: ${({ theme }) => theme.colors.indigo};
 
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 35rem;
 
     border-collapse: collapse;
     border-spacing: 0;
 
-
+    td {
+      margin-right: 8rem;
+    }
   }
 
 `
