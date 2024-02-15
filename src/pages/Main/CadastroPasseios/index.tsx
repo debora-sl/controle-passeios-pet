@@ -1,5 +1,16 @@
+import {Container} from '../styles'
 
+import { Header } from '../../../components/Header'
+import { Verticalbar } from '../../../components/Verticalbar'
 
 export default function CadastroPasseios() {
-  return <h1>Cadastros de Passeios</h1>
+  return (
+    <Container>
+      <Header />
+      <Verticalbar />
+
+    </Container>
+
+  )
+
 }
