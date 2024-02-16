@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom'
 import {Container, Table} from './styles'
 
 
@@ -26,6 +27,6 @@ export function ListTours () {
           </tr>
         </tbody>
       </Table>
-      <a href="#">Clique para cadastrar um passeio</a>
+      <NavLink to='/passeios'>Clique para cadastrar um passeio</NavLink>
   </Container>
 }

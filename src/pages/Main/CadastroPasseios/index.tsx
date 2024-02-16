@@ -8,9 +8,21 @@ export default function CadastroPasseios() {
     <Container>
       <Header />
       <Verticalbar />
+      <h1>Cadastro de Passeios</h1>
+      <form action="">
+        <label htmlFor="">
+          Escolha a Data
+          <input type="date" name="date" id="" />
+        </label>
 
+        <label htmlFor="">
+          <input type="checkbox" name="" id="" />
+          Passeio concluído
+        </label>
+
+        <button type="submit">Cadastrar</button>
+      </form>
     </Container>
 
   )
-
 }

@@ -7,10 +7,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
 
-  h1 {
-    font-size: ${({ theme }) => theme.fontSize['4xl']};
-    color: ${({ theme }) => theme.colors.midnightBlue};
-  }
+
 
   a {
       color: ${({ theme }) => theme.colors.blue};

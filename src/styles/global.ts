@@ -30,6 +30,12 @@ export const GlobalStyle = createGlobalStyle`
     font: 400 1rem 'Roboto', Helvetica, Arial, sans-serif;
   }
 
+  h1 {
+    font-size: ${({ theme }) => theme.fontSize['4xl']};
+    color: ${({ theme }) => theme.colors.midnightBlue};
+    text-align: center;
+  }
+
   a {
     color: inherit;
     text-decoration: none;

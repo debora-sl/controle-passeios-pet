@@ -1,3 +1,4 @@
+import { Outlet } from 'react-router-dom'
 import { Header } from '../../components/Header'
 import { ListTours } from '../../components/ListTours'
 import { Verticalbar } from '../../components/Verticalbar'
@@ -11,6 +12,7 @@ export default function Main() {
 
       <section>
         <ListTours />
+        <Outlet />
       </section>
     </Container>
   )
