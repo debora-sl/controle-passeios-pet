@@ -49,4 +49,12 @@ export const GlobalStyle = createGlobalStyle`
   li {
     list-style: none;
   }
+
+  form {
+    border: thin solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+  }
 `
