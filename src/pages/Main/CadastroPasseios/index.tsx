@@ -21,7 +21,7 @@ export default function CadastroPasseios() {
             Passeio concluído
           </label>
 
-          <button type="submit">Cadastrar</button>
+          <button type="submit" className='buttonCadastrar'>Cadastrar</button>
         </form>
       </Container>
     </>

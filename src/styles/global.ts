@@ -51,7 +51,6 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   form {
-    border: thin solid red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,13 +58,25 @@ export const GlobalStyle = createGlobalStyle`
 
     label {
       margin-right: 1rem;
+      font-size: ${({ theme }) => theme.fontSize.lg};;
 
       input {
-        border: thin solid black;
+        border: none;
+        border-radius: 3px;
         margin-right: 0.4rem;
         margin-left: 0.4rem;
         text-align: center;
+
       }
+    }
+
+    button{
+      background: ${({ theme }) => theme.colors.blue};
+      color: ${({ theme }) => theme.colors.gray100};
+      width: 10rem;
+      height: 2rem;
+      border: none;
+      border-radius: 3px;
     }
   }
 `
