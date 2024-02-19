@@ -56,5 +56,16 @@ export const GlobalStyle = createGlobalStyle`
     align-items: center;
     justify-content: center;
     padding: 0.5rem;
+
+    label {
+      margin-right: 1rem;
+
+      input {
+        border: thin solid black;
+        margin-right: 0.4rem;
+        margin-left: 0.4rem;
+        text-align: center;
+      }
+    }
   }
 `
