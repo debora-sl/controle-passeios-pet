@@ -36,6 +36,13 @@ export const GlobalStyle = createGlobalStyle`
     text-align: center;
   }
 
+  h2 {
+    font-size: ${({ theme }) => theme.fontSize['3xl']};
+    color: ${({ theme }) => theme.colors.midnightBlue};
+    text-align: center;
+    margin-top: 2rem;
+  }
+
   a {
     color: inherit;
     text-decoration: none;
