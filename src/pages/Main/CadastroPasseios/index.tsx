@@ -5,6 +5,13 @@ import { Verticalbar } from '../../../components/Verticalbar'
 import { Table } from '../../../components/ListTours/styles'
 
 export default function CadastroPasseios() {
+  const tour = {
+    data: '21/02/2024',
+    tourStatus: false
+  }
+  console.log(tour);
+
+
   return (
     <>
       <Header />
