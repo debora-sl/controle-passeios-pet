@@ -3,6 +3,7 @@ import {Container} from '../CadastroPasseios/styles'
 import { Header } from '../../../components/Header'
 import { Verticalbar } from '../../../components/Verticalbar'
 import { Table } from '../../../components/ListTours/styles'
+import { Head } from '../../../components/Head'
 
 export default function CadastroPasseios() {
   const tour = {
@@ -14,6 +15,7 @@ export default function CadastroPasseios() {
 
   return (
     <>
+      <Head title='Cadastro de Passeios'/>
       <Header />
       <Verticalbar />
       <Container>

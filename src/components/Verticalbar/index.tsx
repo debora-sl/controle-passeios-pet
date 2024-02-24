@@ -1,5 +1,6 @@
 import {Container} from './styles'
 
+
 export function Verticalbar(){
   return (
     <Container>
